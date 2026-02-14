@@ -42,7 +42,7 @@ Dataset used: <strong>UrbanSound8K</strong>
   <li>Python</li>
   <li>NumPy</li>
   <li>Librosa</li>
-  <li>TensorFlow / PyTorch</li>
+  <li>PyTorch / PyTorch</li>
   <li>Scikit-learn</li>
 </ul>
 
@@ -53,7 +53,7 @@ Dataset used: <strong>UrbanSound8K</strong>
 <ol>
   <li>Load audio files</li>
   <li>Convert audio into Mel Spectrogram / MFCC features</li>
-  <li>Train a CNN-based classification model</li>
+  <li>Train a deep learning classification model</li>
   <li>Evaluate model accuracy</li>
 </ol>
 
@@ -64,8 +64,6 @@ Dataset used: <strong>UrbanSound8K</strong>
 <pre>
 audio_classification/
 │
-├── data/
-├── src/
 ├── models/
 ├── notebooks/
 ├── requirements.txt
@@ -89,21 +87,7 @@ cd audio-classification
 pip install -r requirements.txt
 </pre>
 
-<h3>3️⃣ Download Dataset</h3>
-
-<p>
-Download the UrbanSound8K dataset and place it inside:
-</p>
-
-<pre>
-data/UrbanSound8K/
-</pre>
-
-<h3>4️⃣ Train the Model</h3>
-
-<pre>
-python src/train.py
-</pre>
+<h3>3️⃣ Download the Dataset and start exploring</h3>
 
 <hr>
 
